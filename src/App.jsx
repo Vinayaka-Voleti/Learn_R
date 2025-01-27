@@ -1,5 +1,5 @@
-import './Components/Header'
-import ProductList from './Components/ProductList';
+// import './Components/Header'
+// import ProductList from './Components/ProductList';
 // import Main from './Components/Main'
 // import Header from './Components/Header';
 // import Footer from './Components/Footer'
@@ -7,6 +7,9 @@ import ProductList from './Components/ProductList';
 // import Greetings from './Components/Greetings';
 // import ProductInfo from './Components/ProductInfo';
 // import UserList from './Components/UserList';
+// import User from './Components/User'
+// import Person from './Components/Person'
+import Product from './Components/Product'
 function App() {
 
   
@@ -15,11 +18,20 @@ function App() {
       {/* <Greetings/> */}
       {/* <Header/>
       <Main/>
-      <Footer/> */}
+    <Footer/> */}
       {/* <WelcomeMessage/> */}
       {/* <ProductInfo/> */}
       {/* <UserList/> */}
-      <ProductList/>
+      {/* <ProductList/> */}
+      {/* <User 
+        img ="https://avatars.githubusercontent.com/u/148869371?s=400&v=4"
+        name= "Vinayaka Voleti"
+        age ={19}
+        isMarried ={false}
+        hobbies ={["coding", "chess", "sleeping"]}
+        /> */}
+        {/* <Person n = "Vinayaka Voleti" a = {20}/> */}
+        <Product names= "Pen" price= {10}/>
     </div>
   );
 }
