@@ -8,9 +8,9 @@ const Product = {
 const ProductInfo = () => {
   return (
     <div>
-        <p>{Product.name}
-        {Product.price}
-        {Product.availability}</p>
+        <p>Name: {Product.name}</p>
+        <p>Price: ${Product.price}</p>
+        <p>Availability: {Product.availability}</p>
     </div>
     )
 }
