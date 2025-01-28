@@ -4,18 +4,22 @@
 // import Header from './Components/Header';
 // import Footer from './Components/Footer'
 // import WelcomeMessage from './WelcomeMessage'
-// import Greetings from './Components/Greetings';
+import Greetings from './Components/Greetings';
 // import ProductInfo from './Components/ProductInfo';
 // import UserList from './Components/UserList';
 // import User from './Components/User'
 // import Person from './Components/Person'
-import Product from './Components/Product'
+// import Product from './Components/Product'
+// import Weather from './Components/Weather';
+// import Passowrd from './Components/Password'
+// import UserStauts from './Components/UserStatus';
+// import Weather from './Components/Weather';
 function App() {
+  const CurrentD = new Date();
 
-  
   return (
     <div className="App">
-      {/* <Greetings/> */}
+      <Greetings morn={CurrentD.getHours()<12} noon="afternoon"/>
       {/* <Header/>
       <Main/>
     <Footer/> */}
@@ -31,7 +35,11 @@ function App() {
         hobbies ={["coding", "chess", "sleeping"]}
         /> */}
         {/* <Person n = "Vinayaka Voleti" a = {20}/> */}
-        <Product names= "Pen" price= {10}/>
+        {/* <Product names= "Pen" price= {10}/> */}
+        {/* <Weather temp = {23}/> */}
+        {/* <Passowrd isValid={false}/> */}
+        {/* <Weather temp={26}/> */}
+        {/* <UserStauts loggedIn={true} isAdmin={false}/> */}
     </div>
   );
 }
