@@ -17,8 +17,15 @@
 // import StyleCard from "./Components/StyleCard";
 
 // import Weather from './Components/Weather';
-import UsingState from './Components/UsingState'
+// import UsingState from './Components/UsingState'
+
+// import { useState } from 'react';
+// import Comp1 from './Components/Comp1'
+import Comp2 from './Components/Comp2';
 function App() {
+
+  // const [count, setCount] = useState(0); //Comp1.jsx
+  
 
   return (
     <div className="App">
@@ -46,8 +53,11 @@ function App() {
         {/* <StyleCard/> */}
         {/* <FaBeer style={{alignItems:"center",backgroundColor:"red"}}/> */}
 
-        <UsingState/>
+        {/* <UsingState/> */}
 
+        {/* <Comp1 counter= {count} funCountadd = {()=>setCount(count+1) } funCountsub={()=>setCount(count-1)} /> */}
+        
+        <Comp2 />
 
     </div>
   );
