@@ -12,11 +12,12 @@
 // import Product from './Components/Product'
 // import Weather from './Components/Weather';
 // import Passowrd from './Components/Password'
-import UserStauts from './Components/UserStatus';
+// import UserStauts from './Components/UserStatus';
 // import { FaBeer } from "react-icons/fa";
 // import StyleCard from "./Components/StyleCard";
 
 // import Weather from './Components/Weather';
+import UsingState from './Components/UsingState'
 function App() {
 
   return (
@@ -41,9 +42,11 @@ function App() {
         {/* <Weather temp = {23}/> */}
         {/* <Passowrd isValid={false}/> */}
         {/* <Weather temp={26}/> */}
-        <UserStauts loggedIn={true} isAdmin={true}/>
+        {/* <UserStauts loggedIn={true} isAdmin={true}/> */}
         {/* <StyleCard/> */}
         {/* <FaBeer style={{alignItems:"center",backgroundColor:"red"}}/> */}
+
+        <UsingState/>
 
 
     </div>
