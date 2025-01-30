@@ -17,6 +17,7 @@
 // import StyleCard from "./Components/StyleCard";
 
 import CopyInput from "./Components/CopyInput";
+import UsingEffect from "./Components/UsingEffect";
 
 // import Weather from './Components/Weather';
 // import UsingState from './Components/UsingState'
@@ -61,7 +62,7 @@ function App() {
         
         {/* <Comp2 /> */}
         <CopyInput/>
-        
+        <UsingEffect/>
 
     </div>
   );
