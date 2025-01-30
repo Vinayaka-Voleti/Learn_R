@@ -16,12 +16,14 @@
 // import { FaBeer } from "react-icons/fa";
 // import StyleCard from "./Components/StyleCard";
 
+import CopyInput from "./Components/CopyInput";
+
 // import Weather from './Components/Weather';
 // import UsingState from './Components/UsingState'
 
 // import { useState } from 'react';
 // import Comp1 from './Components/Comp1'
-import Comp2 from './Components/Comp2';
+// import Comp2 from './Components/Comp2';
 function App() {
 
   // const [count, setCount] = useState(0); //Comp1.jsx
@@ -57,7 +59,9 @@ function App() {
 
         {/* <Comp1 counter= {count} funCountadd = {()=>setCount(count+1) } funCountsub={()=>setCount(count-1)} /> */}
         
-        <Comp2 />
+        {/* <Comp2 /> */}
+        <CopyInput/>
+        
 
     </div>
   );
