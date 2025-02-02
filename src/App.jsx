@@ -16,8 +16,10 @@
 // import { FaBeer } from "react-icons/fa";
 // import StyleCard from "./Components/StyleCard";
 
-import CopyInput from "./Components/CopyInput";
-import UsingEffect from "./Components/UsingEffect";
+// import ComponentA from "./Components/ComponentA";
+
+// import CopyInput from "./Components/CopyInput";
+// import UsingEffect from "./Components/UsingEffect";
 
 // import Weather from './Components/Weather';
 // import UsingState from './Components/UsingState'
@@ -25,6 +27,8 @@ import UsingEffect from "./Components/UsingEffect";
 // import { useState } from 'react';
 // import Comp1 from './Components/Comp1'
 // import Comp2 from './Components/Comp2';
+
+import ContextAPI from './Components/ContextAPI'
 function App() {
 
   // const [count, setCount] = useState(0); //Comp1.jsx
@@ -51,7 +55,7 @@ function App() {
         {/* <Product names= "Pen" price= {10}/> */}
         {/* <Weather temp = {23}/> */}
         {/* <Passowrd isValid={false}/> */}
-        {/* <Weather temp={26}/> */}
+        {/* <Weather temp={6}/> */}
         {/* <UserStauts loggedIn={true} isAdmin={true}/> */}
         {/* <StyleCard/> */}
         {/* <FaBeer style={{alignItems:"center",backgroundColor:"red"}}/> */}
@@ -61,8 +65,11 @@ function App() {
         {/* <Comp1 counter= {count} funCountadd = {()=>setCount(count+1) } funCountsub={()=>setCount(count-1)} /> */}
         
         {/* <Comp2 /> */}
-        <CopyInput/>
-        <UsingEffect/>
+        {/* <CopyInput/> */}
+        {/* <UsingEffect/> */}
+
+        {/* <ComponentA/> */}
+        <ContextAPI />
 
     </div>
   );

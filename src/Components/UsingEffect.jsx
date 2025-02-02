@@ -12,6 +12,10 @@ const UsingEffect = () => {
     <div>
         <h1>Number: {count}</h1>
         <button onClick={()=> setCount(count+1)}>+</button>
+        <button onClick={()=> setCount(count-1)}>-</button>
+        <button onClick={()=> setCount(0)}>Clear</button>
+
+
     </div>
   )
 }
