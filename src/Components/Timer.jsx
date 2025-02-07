@@ -7,7 +7,11 @@ const Timer = () => {
         countTimer.current = setInterval(()=>{
             setCount((prevCount) => prevCount + 1 );
         },1000)
-    },[])
+        return ()=>{
+          clearInterval(countTimer.current)
+        }
+      },[])
+
   return (
     <div>
         <h1>Timer : {count} seconds</h1>
