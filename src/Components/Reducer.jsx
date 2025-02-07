@@ -12,8 +12,10 @@ const Reducer = () => {
       <button onClick={()=> dispatch({type: "increment"})}>+</button>
       <button onClick={()=> dispatch({type: "decrement"})}>-</button>
       <input type="text" value={num} onChange={(e)=>setNUm(e.target.value)} />
-      <button onClick={()=> dispatch({type: "addByValue", payload: Number(num)})}></button>
-      <button onClick={()=> dispatch ({type: "subByValue" , payload : +num})}></button>
+      <button onClick={()=>{ dispatch({type: "addByValue", payload: Number(num)}) 
+                            setNUm(0)}}>Addition</button>
+      <button onClick={()=> {dispatch ({type: "subByValue" , payload : +num})
+                            setNUm(0)}}>Substract</button>
 
     </div>
   )

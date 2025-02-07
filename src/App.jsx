@@ -16,6 +16,10 @@
 // import { FaBeer } from "react-icons/fa";
 // import StyleCard from "./Components/StyleCard";
 
+// import FocusInput from "./Components/FocusInput";
+import Timer from "./Components/Timer";
+// import UseRef from "./Components/UseRef";
+
 // import ComponentA from "./Components/ComponentA";
 
 // import CopyInput from "./Components/CopyInput";
@@ -29,7 +33,7 @@
 // import Comp2 from './Components/Comp2';
 
 // import ContextAPI from './Components/ContextAPI'
-import Reducer from './Components/Reducer';
+// import Reducer from './Components/Reducer';
 // import UseReducer from './Components/UseReducer';
 function App() {
 
@@ -74,7 +78,10 @@ function App() {
         {/* <ContextAPI /> */}
 
         {/* <UseReducer/> */}
-        <Reducer/>
+        {/* <Reducer/> */}
+        {/* <UseRef/> */}
+        {/* <FocusInput/> */}
+        <Timer/>
     </div>
   );
 }
