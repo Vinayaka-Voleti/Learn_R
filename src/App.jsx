@@ -28,7 +28,9 @@
 // import Comp1 from './Components/Comp1'
 // import Comp2 from './Components/Comp2';
 
-import ContextAPI from './Components/ContextAPI'
+// import ContextAPI from './Components/ContextAPI'
+import Reducer from './Components/Reducer';
+// import UseReducer from './Components/UseReducer';
 function App() {
 
   // const [count, setCount] = useState(0); //Comp1.jsx
@@ -69,8 +71,10 @@ function App() {
         {/* <UsingEffect/> */}
 
         {/* <ComponentA/> */}
-        <ContextAPI />
+        {/* <ContextAPI /> */}
 
+        {/* <UseReducer/> */}
+        <Reducer/>
     </div>
   );
 }
