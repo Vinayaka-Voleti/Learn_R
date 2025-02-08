@@ -16,6 +16,8 @@
 // import { FaBeer } from "react-icons/fa";
 // import StyleCard from "./Components/StyleCard";
 
+// import UseID from "./Components/UseID";
+
 // import FocusInput from "./Components/FocusInput";
 import Timer from "./Components/Timer";
 // import UseRef from "./Components/UseRef";
@@ -82,6 +84,9 @@ function App() {
         {/* <UseRef/> */}
         {/* <FocusInput/> */}
         <Timer/>
+        {/* <UseID/> */}
+        {/* <UseID/> */}
+        
     </div>
   );
 }

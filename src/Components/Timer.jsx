@@ -1,27 +1,23 @@
 import React, { useEffect, useRef, useState } from 'react'
 
 const Timer = () => {
-    const [count, setCount] = useState(0);
-    const countTimer = useRef(null);
-    useEffect(()=>{
-        countTimer.current = setInterval(()=>{
-            setCount((prevCount) => prevCount + 1 );
-        },1000)
-        return ()=>{
-          clearInterval(countTimer.current)
-          // setCount(countTimer.current)
-          
-
-        }
-      },[])
-
+  const [count, setCount] = useState(0);
+  const Time = useRef(null)
+  useEffect(()=>{
+    Time.current = setInterval(()=>{
+      setCount(prev => prev + 1);
+    }, 1000);
+    
+    return ()=> {
+      clearInterval(Time.current)
+    }
+  },[]);
   return (
     <div>
-        <h1>Timer : {count} seconds</h1>
-        <button onClick={()=>clearInterval(countTimer.current)}>Stop Time</button>
-        <button onClick={()=>setInterval(()=>{setCount(p=>p+1)},1000)}>Restart</button>
+      <h1>TImer: {count} seconds</h1>
+      <button onClick={()=> clearInterval(Time.current)}>Stop Timer</button>
     </div>
   )
-} 
+}
 
 export default Timer
