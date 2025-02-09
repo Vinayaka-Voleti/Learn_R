@@ -19,7 +19,7 @@
 // import UseID from "./Components/UseID";
 
 // import FocusInput from "./Components/FocusInput";
-import Timer from "./Components/Timer";
+// import Timer from "./Components/Timer";
 // import UseRef from "./Components/UseRef";
 
 // import ComponentA from "./Components/ComponentA";
@@ -83,7 +83,7 @@ function App() {
         {/* <Reducer/> */}
         {/* <UseRef/> */}
         {/* <FocusInput/> */}
-        <Timer/>
+        {/* <Timer/> */}
         {/* <UseID/> */}
         {/* <UseID/> */}
         
